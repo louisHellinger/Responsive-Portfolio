@@ -464,10 +464,7 @@ body {
     margin: 0%;
 }
 
-a:hover { 
-	color: #4aaaa5;
-	text-decoration: underline; 
-	}
+
 
 p {
 	font-family:Arial, Helvetica, sans-serif;
@@ -476,8 +473,6 @@ p {
 	color: #777777;
 
 }
-
-
 
 aside#connectBlock hr {
 	text-align: center;
@@ -490,6 +485,13 @@ a {
 	text-decoration: none;
 	color:#666;
 }
+
+a:hover { 
+	color: #4aaaa5;
+	text-decoration: underline; 
+	}
+
+
 
 h2 {
 	display:inline-block;
