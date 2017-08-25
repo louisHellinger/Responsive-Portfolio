@@ -214,7 +214,7 @@ header {
 
 }
 
-#topNavigation{
+#topNavigation {
 	width:100%;
 	margin:0 auto;
 
@@ -230,6 +230,11 @@ header {
 	border-width: 1px;
 	border-color: #ddd;
 
+}
+
+#profilePic {
+	margin: 0% 3% 2% 0%;
+	width:240px;
 }
 
 header h1 {
