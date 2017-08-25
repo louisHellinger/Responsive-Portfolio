@@ -1,0 +1,356 @@
+/* MEDIA SCREENS */
+@media only screen and (max-width: 980px) {
+
+/* tag styling */
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background: url(../images/vertical-waves.png);
+    background-repeat: repeat;
+    margin: 0%;
+}
+
+a:hover 
+	{ 
+		color: #4aaaa5; 
+	}
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.75;
+	color: #777777;
+
+}
+
+header {
+	background-color:#fff;
+	width:100%;
+	border-bottom: 1px solid #ccc;
+	margin:0 auto;
+	position:static;
+
+}
+
+aside#connectBlock hr {
+	text-align: center;
+	size: .5px;
+	margin:12px 0%;
+
+}
+
+nav ul li{
+
+	width:200px;
+	display:inline;
+	list-style:none;
+	margin: 2% 0% 2% 0%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:0% 4%;
+	
+}
+
+header ul {
+	margin:2% 6% 2% 2%;
+	padding:0px;
+	border-collapse: all;
+	float:right;
+	width:200px;
+	
+}
+
+
+
+a {
+	text-decoration: none;
+	color:#666;
+}
+
+
+
+header h1 {
+	padding: 2% 5%;
+	float:left;
+	background-color:#4aaaa5;
+	text-align: center;
+	color:white;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin:0% 0% 0% 2%;
+	font-size:24px;
+	font-style:bold;
+	text-transform: uppercase;
+
+}
+
+h2 {
+	display:inline-block;
+	margin:0px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color:#4aaaa5;
+	font-size:22px;
+	font-style:bold;
+}
+
+h3 {
+	display:inline;
+	margin:50px 0px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color:#4aaaa5;
+	font-size:16px;
+	padding:20px 0px;
+
+}
+
+hr {
+    border-top: 1px 
+    solid: #cdcdcd;
+    padding: 0px; 
+    margin: 10px 0px 10px 0px;
+}
+
+footer {
+	clear:both;
+	text-align:center;
+	border-top: 10px solid #4aaaa5;
+	background-color: #666;
+	padding:30px 0%;
+	color:white;
+	width:100%;
+
+}
+
+
+ 
+/*. FORM ITEMS. */
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 4px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+label {
+	font-size:13px;
+	margin:0px;
+}
+
+textarea {
+	width:100%;
+	height:200px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	margin: 8px 0;
+	resize:vertical;
+    overflow:auto;
+	
+}
+
+
+/* IDs */
+
+#container {
+	width:900px;
+	margin: 0 auto;
+	overflow:auto;
+
+}
+
+#topNavigation{
+	width:900px;
+	margin:0 auto;
+
+}
+
+#mainSection {
+	float:left;
+	width:65%;
+	background-color: white;
+	margin:2%;
+	padding:2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	position:relative;
+	left:200;
+
+}
+
+#portfolioLayout {
+	float:left;
+	width:65%;
+	background-color: white;
+	margin:2%;
+	padding:2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	position:relative;
+	left:200;
+
+}
+
+
+#connectBlock {
+	position:relative;
+	right: 0px;
+	float:left;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4aaaa5;
+	background-color: white;
+	margin:2% 2% 0% 0%;
+	width:25%;
+	padding: 3% 2%;
+
+	
+}
+
+#connectBlock ul {
+	padding:0px;
+	border-collapse: all;
+}
+
+
+#connectBlock ul li {
+	display:inline;
+
+}
+
+#profilePic {
+	margin: 0% 3% 2% 0%;
+	width:240px;
+}
+
+
+
+
+/* classes */
+
+.icon {
+	height:35px;
+	margin: 0px 5px;
+	display:inline;
+}
+
+.clearfix::after {
+	content:"";
+	display:block;
+  	clear:both;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.thinBorder{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	padding:10px;
+
+}
+
+
+.contents {
+    overflow: auto;
+    border-top: 1px solid #ddd;
+    width:900px;
+    margin: 0 auto;
+}
+
+
+
+figcaption {
+	float:left;
+	background: rgba(26, 83, 92, 0.8);
+	z-index:5;
+	position:relative;
+	top:-80px;
+	color:white;
+	padding:10px 0px;
+	width:250px;
+	text-align: center;
+	opacity:.7;
+
+}
+
+
+
+section.figures {
+	display: inline;
+	float:left;
+	border-collapse: all;
+}
+
+section.figures figure {
+    display: inline;
+    width:250px;
+    height:200px;
+    float:left;
+    margin:2px;
+
+}
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px and (min-width: 540px)) {
+
+	section.contents {
+    overflow: auto;
+    border-top: 1px solid #ddd;
+    width:100%;
+    margin: 0 auto;
+    background-color:red;
+}
+
+
+header #topNavigation{
+	width:100%;
+	margin:0 auto;
+
+}
+
+aside #connectBlock {
+	position:relative;
+	right: 0px;
+	clear:both;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4aaaa5;
+	background-color: white;
+	margin:2% 2% 0% 0%;
+	width:100%;
+	padding: 3% 2%;
+
+	
+}
+
+#mainSection {
+	width:500px;
+	background-color: white;
+	margin:2%;
+	padding:2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+}
+
+}
+
