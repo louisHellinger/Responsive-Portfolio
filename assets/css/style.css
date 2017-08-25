@@ -365,7 +365,7 @@ figcaption {
 	float:left;
 	width:100%;
 	background-color: white;
-	margin:10px 0px;
+/* 	margin:10px 0px; */
 	padding:2%;
 	border-style: solid;
 	border-width: 1px;
