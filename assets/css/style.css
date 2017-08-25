@@ -9,12 +9,16 @@ section.contents {
 }
 
 section.figures figure {
+	float:left;
     display: inline;
-    width:250px;
-    height:200px;
-    float:left;
-    margin:2px;
+    margin: 0px 3% 0px 3%;
+    width:44%;
+}
 
+figure img {
+    width:100%;
+    height:100%;
+    
 }
 
 figcaption {
