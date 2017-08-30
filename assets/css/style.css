@@ -1,5 +1,4 @@
-/* MEDIA SCREENS */
-@media only screen and (min-width: 769px) {
+
 
 section.contents {
     overflow: auto;
@@ -31,7 +30,7 @@ figcaption {
 	padding:10px 0px;
 	width:100%;
 	text-align: center;
-	opacity:.7;
+	opacity:.9;
 
 }
 
@@ -150,304 +149,10 @@ hr {
 
 
 
-}
-
-
-/*. BREAKPOINT 768. */
-
-@media screen and (max-width: 768px) and (min-width: 641px) {
-
-section.contents {
-    overflow: auto;
-    border-top: 1px solid #ddd;
-    width:100%;
-    margin: 0 auto;
-    /*background-color:red;*/
-    padding:1%;
-}
-
-#mainSection {
-	width:100%;
-	background-color: white;
-	padding:2%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #ddd;
-
-}
-
-#portfolioLayout {
-	float:left;
-	width:100%;
-	background-color: white;
-/* 	margin:2%; */
-	padding:2%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #ddd;
-
-}
-
-section.figures figure {
-	float:left;
-    display: inline;
-    margin: 0px 3% 0px 3%;
-    width:44%;
-}
-
-figure img {
-    width:100%;
-    height:100%;  
-}
-
-
-figcaption {
-	float:left;
-	background: rgba(26, 83, 92, 0.8);
-	z-index:5;
-	position:relative;
-	top:-60px;
-	color:white;
-	padding:10px 0px;
-	width:100%;
-	text-align: center;
-	opacity:.7;
-
-}
-
-header {
-	background-color:#fff;
-	width:100%;
-	border-bottom: 1px solid #ccc;
-	margin:0 auto;
-	position:static;
-	/*background-color:red;*/
-
-}
-
-#topNavigation {
-	width:100%;
-	margin:0 auto;
-
-}
-
-#profilePic {
-	margin: 0% 3% 1% 0%;
-	width:200px;
-}
-
-header h1 {
-	padding: 12px 18px;
-	float:left;
-	background-color:#4aaaa5;
-	text-align: center;
-	color:white;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	margin:0% 0% 0% 2%;
-	font-size:16px;
-	font-style:bold;
-	text-transform: uppercase;
-	white-space: nowrap;
-
-}
-
-header ul {
-	float:right;
-	margin:0% 4% 0% 2%;
-	padding:12px;
-	border-collapse: all;
-	overflow:auto;
-	white-space: nowrap;
-}
-
-nav ul li{
-	display:inline;
-	list-style:none;
-	margin: 2% 0% 2% 0%;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	margin-left: 20px;
-	text-transform: capitalize;
-	
-}
-
-
-#connectBlock {
-	position:relative;
-	width:100%;
-	clear:both;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#4aaaa5;
-	background-color: white;
-	margin-top: 1%;
-
-}
-
-aside#connectBlock hr {
-	text-align: left;
-	size: .5px;
-	margin:12px 0%;
-
-}
 
 
 
-hr {
-    border-top: 1px 
-    solid: #cdcdcd;
-    padding: 0px; 
-    margin: 10px 0px 10px 0px;
-}
-
-
-}
-
-
-/*. BREAKPOINT 640. */
-
-@media screen and (max-width: 640px) {
-
-section.contents {
-    overflow: auto;
-    border-top: 1px solid #ddd;
-    width:100%;
-    margin: 0 auto;
-    /*background-color:green;*/
-    padding:1%;
-}
-
-header {
-	background-color:#fff;
-	width:100%;
-	border-bottom: 1px solid #ccc;
-	margin:0 auto;
-	position:static;
-	/*background-color:yellow;*/
-
-}
-
-section.figures figure {
-	float:left;
-    display: inline;
-    margin: 0px 0% 0px )%;
-    width:100%;
-}
-
-figure img {
-    width:100%;
-    height:100%;
-    
-}
-
-
-figcaption {
-	float:left;
-	background: rgba(26, 83, 92, 0.8);
-	z-index:5;
-	position:relative;
-	top:-60px;
-	color:white;
-	padding:10px 0px;
-	width:100%;
-	text-align: center;
-	opacity:.7;
-
-}
-
-
-#topNavigation{
-	width:100%;
-	margin:0 auto;
-
-}
-
-#portfolioLayout {
-	float:left;
-	width:100%;
-	background-color: white;
-/* 	margin:10px 0px; */
-	padding:2%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #ddd;
-
-}
-
-#mainSection {
-	width:100%;
-	background-color: white;
-	padding:2%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #ddd;
-
-}
-
-
-#profilePic {
-	margin: 1% 0%;
-	width:100%;
-}
-
-header h1 {
-	padding: 12px 18px;
-	float:left;
-	background-color:#4aaaa5;
-	text-align: center;
-	width:100%;
-	color:white;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	margin:0 auto;
-	font-size:24px;
-	font-style:bold;
-	text-transform: uppercase;
-	white-space: nowrap;
-
-}
-
-header ul {
-	position:relative;
-	margin:0% 4% 0% 2%;
-	padding:10px;
-	border-collapse: all;
-	overflow:auto;
-	white-space: nowrap;
-	text-align:center;
-}
-
-nav ul li{
-	display:inline;
-	list-style:none;
-	margin: 0% 10%;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:14px;
-	text-transform: capitalize;
-	
-}
-
-#connectBlock {
-	clear:both;
-	float:left;
-	width:100%;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#4aaaa5;
-	background-color: white;
-	position:relative;
-	margin-top: 8px;
-
-}
-
-hr {
-    border-top: 1px 
-    solid: #cdcdcd;
-    padding: 0px; 
-    margin: 10px 0px 10px 0px;
-}
-
-
-}
-
-/*.--------- REGULAR CSS -------*/
+/*.---------  CSS styles unaffected by responsive-------*/
 
 
 /* tag styling */
@@ -617,6 +322,300 @@ section.figures {
 
 }
 
+
+/*. BREAKPOINT 768. */
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+section.contents {
+    overflow: auto;
+    border-top: 1px solid #ddd;
+    width:100%;
+    margin: 0 auto;
+    /*background-color:red;*/
+    padding:1%;
+}
+
+#mainSection {
+	width:100%;
+	background-color: white;
+	padding:2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+
+}
+
+#portfolioLayout {
+	float:left;
+	width:100%;
+	background-color: white;
+/* 	margin:2%; */
+	padding:2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+
+}
+
+section.figures figure {
+	float:left;
+    display: inline;
+    margin: 0px 3% 0px 3%;
+    width:44%;
+}
+
+figure img {
+    width:100%;
+    height:100%;  
+}
+
+
+figcaption {
+	float:left;
+	background: rgba(26, 83, 92, 0.8);
+	z-index:5;
+	position:relative;
+	top:-60px;
+	color:white;
+	padding:10px 0px;
+	width:100%;
+	text-align: center;
+	opacity:.9;
+
+}
+
+header {
+	background-color:#fff;
+	width:100%;
+	border-bottom: 1px solid #ccc;
+	margin:0 auto;
+	position:static;
+	/*background-color:red;*/
+
+}
+
+#topNavigation {
+	width:100%;
+	margin:0 auto;
+
+}
+
+#profilePic {
+	margin: 0% 3% 1% 0%;
+	width:200px;
+}
+
+header h1 {
+	padding: 12px 18px;
+	float:left;
+	background-color:#4aaaa5;
+	text-align: center;
+	color:white;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin:0% 0% 0% 2%;
+	font-size:16px;
+	font-style:bold;
+	text-transform: uppercase;
+	white-space: nowrap;
+
+}
+
+header ul {
+	float:right;
+	margin:0% 4% 0% 2%;
+	padding:12px;
+	border-collapse: all;
+	overflow:auto;
+	white-space: nowrap;
+}
+
+nav ul li{
+	display:inline;
+	list-style:none;
+	margin: 2% 0% 2% 0%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-left: 20px;
+	text-transform: capitalize;
+	
+}
+
+
+#connectBlock {
+	position:relative;
+	width:100%;
+	clear:both;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4aaaa5;
+	background-color: white;
+	margin-top: 1%;
+
+}
+
+aside#connectBlock hr {
+	text-align: left;
+	size: .5px;
+	margin:12px 0%;
+
+}
+
+
+
+hr {
+    border-top: 1px 
+    solid: #cdcdcd;
+    padding: 0px; 
+    margin: 10px 0px 10px 0px;
+}
+
+
+}
+
+
+/*. BREAKPOINT 640. */
+
+@media screen and (max-width: 640px) {
+
+section.contents {
+    overflow: auto;
+    border-top: 1px solid #ddd;
+    width:100%;
+    margin: 0 auto;
+    /*background-color:green;*/
+    padding:1%;
+}
+
+header {
+	background-color:#fff;
+	width:100%;
+	border-bottom: 1px solid #ccc;
+	margin:0 auto;
+	position:static;
+	/*background-color:yellow;*/
+
+}
+
+section.figures figure {
+	float:left;
+    display: inline;
+    margin: 0px 0% 0px )%;
+    width:100%;
+}
+
+figure img {
+    width:100%;
+    height:100%;
+    
+}
+
+
+figcaption {
+	float:left;
+	background: rgba(26, 83, 92, 0.8);
+	z-index:5;
+	position:relative;
+	top:-60px;
+	color:white;
+	padding:10px 0px;
+	width:100%;
+	text-align: center;
+	opacity:.9;
+
+}
+
+
+#topNavigation{
+	width:100%;
+	margin:0 auto;
+
+}
+
+#portfolioLayout {
+	float:left;
+	width:100%;
+	background-color: white;
+/* 	margin:10px 0px; */
+	padding:2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+
+}
+
+#mainSection {
+	width:100%;
+	background-color: white;
+	padding:2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+
+}
+
+
+#profilePic {
+	margin: 1% 0%;
+	width:100%;
+}
+
+header h1 {
+	padding: 12px 18px;
+	float:left;
+	background-color:#4aaaa5;
+	text-align: center;
+	width:100%;
+	color:white;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin:0 auto;
+	font-size:24px;
+	font-style:bold;
+	text-transform: uppercase;
+	white-space: nowrap;
+
+}
+
+header ul {
+	position:relative;
+	margin:0% 4% 0% 2%;
+	padding:10px;
+	border-collapse: all;
+	overflow:auto;
+	white-space: nowrap;
+	text-align:center;
+}
+
+nav ul li{
+	display:inline;
+	list-style:none;
+	margin: 0% 10%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-transform: capitalize;
+	
+}
+
+#connectBlock {
+	clear:both;
+	float:left;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4aaaa5;
+	background-color: white;
+	position:relative;
+	margin-top: 8px;
+
+}
+
+hr {
+    border-top: 1px 
+    solid: #cdcdcd;
+    padding: 0px; 
+    margin: 10px 0px 10px 0px;
+}
+
+
+}
 
 
 
